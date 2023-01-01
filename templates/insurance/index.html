@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<style>
+        .xyz{
+          margin-bottom: 0px;
+          background-image: url('{% static "image/homepage.jpg" %}');
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+</style>
+<body>
+  {% include "insurance/navbar.html" %}
+<br>
+
+<section id="section-jumbotron" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center ">
+  <div class="container text-center">
+
+    <h1  style="color:rgb(12, 11, 11)" class="display-3 text-danger">Safe Fly Management Excellence </h1>
+    
+    <p style="color:rgb(12, 11, 11)" class="lead">Sign Up now to start applying </p>
+
+  
+    
+    <a href="/customer/customersignup" class="btn btn-lg btn-danger" style="border-radius: 0%;"><i class="fa fa-user" aria-hidden="true"></i> Join Now </a>
+    
+
+
+    
+    <p style="color:rgb(12, 11, 11)" class="lead"  >We are Safe Fly Management Excellence company provide insurance to travelers for domestic and international flights.Travel insurance protects travelers in case of emergency or interruption of a trip. We know how important peace of mind is when you travel. SAFE is the nation first-and-largest unbiased travel insurance comparison site. Our quote process makes it easy to find the right coverage for your next trip. Choose from the best plans from top-rated carriers to guard against the unexpected. Our licensed insurance agents are available 365 days a year to assist you in finding the right coverage. If you have a claim, our Anytime Advocates team can help you navigate the process. Get advice from real travels by browsing the tens of thousands of customer-created travel insurance reviews.</p>
+
+  
+    <br>
+    
+    <br><br>
+
+  
+  </div>  
+</section>
+
+<!-- 
+<div class="jumbotron" style="margin-top: 0px;margin-bottom: 0px;">
+
+ 
+  
+</div> -->
+  {% include "insurance/footer.html" %}
+
+
+</body>
+
+</html>
